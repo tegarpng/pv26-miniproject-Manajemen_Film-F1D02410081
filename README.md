@@ -5,7 +5,11 @@ Projektor adalah aplikasi desktop manajemen film pribadi yang dibangun menggunak
 Aplikasi berjalan sepenuhnya secara offline dan menyimpan seluruh data di lokal menggunakan file database SQLite, sehingga data tetap tersimpan meski aplikasi ditutup. Projektor juga mendukung tampilan light mode dan dark mode yang dapat disesuaikan selera pengguna. Teknologi yang digunakan:
 
 •	Python 3: bahasa pemrograman utama
+
 •	PySide6: framework GUI untuk membangun antarmuka desktop
+
 •	SQLite: database ringan berbasis file untuk penyimpanan data lokal
+
 •	CSV: format file untuk fitur export dan import data
+
 •	QSS: untuk styling antarmuka dari file eksternal
