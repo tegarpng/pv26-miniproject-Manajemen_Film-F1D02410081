@@ -1,3 +1,6 @@
+import os
+
+
 import csv
 from PySide6.QtWidgets import (
     QApplication, QHBoxLayout, QVBoxLayout, QTableWidgetItem, QTableWidget, QFileDialog,
@@ -6,6 +9,8 @@ from PySide6.QtWidgets import (
 from PySide6.QtGui import QAction, QKeySequence
 from Main.film_dialog import CreateFilm, EditFilm
 from Database.DB_film import Database
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 def load_stylesheet(filepath):
     """Load QSS dari file dan return sebagai string"""
@@ -158,12 +163,12 @@ class MainWindow(QMainWindow):
 
     def apply_theme(self):
         if self.is_dark:
-            style = load_stylesheet("Style/styledark.qss")
+            style = load_stylesheet(os.path.join(ROOT, "Style", "styledark.qss"))
             if style:
                 QApplication.instance().setStyleSheet(style)
                 self.statusBar().showMessage("Dark Mode diaktifkan")
         else:
-            style = load_stylesheet("Style/stylelight.qss")
+            style = load_stylesheet(os.path.join(ROOT, "Style", "stylelight.qss"))
             if style:
                 QApplication.instance().setStyleSheet(style)
                 self.statusBar().showMessage("Light Mode diaktifkan")
