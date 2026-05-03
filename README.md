@@ -1,5 +1,6 @@
 ## Pemrograman Visual
 Nama: Muhammad Tegar Bijanta
+
 NIM: F1D02410081
 ## Projektor
 Projektor adalah aplikasi desktop manajemen film pribadi yang dibangun menggunakan Python dengan framework PySide6 dan database SQLite. Aplikasi ini dirancang untuk membantu pengguna mencatat, mengelola, dan memantau koleksi film pribadi mereka baik yang sudah ditonton maupun yang masih dalam daftar tonton (watchlist).
