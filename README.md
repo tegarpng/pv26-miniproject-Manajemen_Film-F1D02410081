@@ -18,6 +18,7 @@ Aplikasi berjalan sepenuhnya secara offline dan menyimpan seluruh data di lokal 
 •	QSS: untuk styling antarmuka dari file eksternal
 
 Panduan penggunaan: 
+
 **1. Clone repository**
 ```bash
 git clone https://github.com/tegarpng/pv26-miniproject-Manajemen_Film-F1D02410081
