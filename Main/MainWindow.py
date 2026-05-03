@@ -1,6 +1,5 @@
 import os
 
-
 import csv
 from PySide6.QtWidgets import (
     QApplication, QHBoxLayout, QVBoxLayout, QTableWidgetItem, QTableWidget, QFileDialog,
