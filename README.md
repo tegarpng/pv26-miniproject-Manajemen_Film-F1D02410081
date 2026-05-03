@@ -18,10 +18,34 @@ Aplikasi berjalan sepenuhnya secara offline dan menyimpan seluruh data di lokal 
 •	QSS: untuk styling antarmuka dari file eksternal
 
 Panduan penggunaan: 
-1. Clone repository
-   Unduh kode dari GitHub ke komputer kamu. {git clone https://github.com/tegarpng/pv26-miniproject-Manajemen_Film-F1D0241008}
-3. Masuk ke folder proyek "cd pv26-miniproject-Manajemen_Film-F1D02410081"
-4. Install dependensi
-   Pastikan Python 3 sudah terpasang, lalu install PySide6. "pip install PySide6"
-4. Siap dijalankan
-   Database SQLite (data_film.db) sudah tersedia di repo.
+**1. Clone repository**
+```bash
+git clone https://github.com/tegarpng/pv26-miniproject-Manajemen_Film-F1D02410081
+```
+
+**2. Masuk ke folder proyek**
+```bash
+cd pv26-miniproject-Manajemen_Film-F1D02410081
+```
+
+**3. Buat virtual environment** *(disarankan)*
+```bash
+# Buat venv
+python -m venv venv
+
+# Aktifkan — Windows
+venv\Scripts\activate
+
+# Aktifkan — Mac / Linux
+source venv/bin/activate
+```
+
+**4. Install dependensi**
+```bash
+pip install PySide6
+```
+
+**5. Jalankan aplikasi**
+```bash
+python main.py
+```
